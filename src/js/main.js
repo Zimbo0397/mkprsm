@@ -1,3 +1,3 @@
 $('#lang-change').on('click', function () {
-	$('#lang-change').assClass('open');
+	$('#lang-change').addClass('open');
 })

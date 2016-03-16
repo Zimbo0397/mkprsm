@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>main</title>
-	<link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,500,600,700,800&subset=cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -37,7 +37,7 @@
 						<a href="#">Личный кабинет</a>
 					</div>
 				</div>
-				<div class="lang-change">
+				<div id="lang-change" class="lang-change">
 					<div class="langs-holder">
 						<ul class="list-unstyled">
 							<li>
@@ -99,24 +99,399 @@
 	</section>
 
 	<section class="youth-card">
-		<div class="card-holder">
-			<h1>
-				Молодежная карта привилегий
-			</h1>
-			<p>
-				Общероссийская общественная организация «Российский Союз Молодёжи» (РСМ) – одно из самых массовых, негосударственных, некоммерческих, неполитических молодёжных объединений России. Главная цель – помочь молодому человеку найти своё место в жизни, самореализоваться и продвинуться по карьерной лестнице.
-			</p>
-			<div class="btn-holder">
-				<a href="#">
-					Вступить в сообщество
-				</a>
+		<div class="rel-holder">
+			<div class="cn-wraper">
+				<div class="card-holder">
+					<h1>
+						Молодежная карта привилегий
+					</h1>
+					<p>
+						Общероссийская общественная организация «Российский Союз Молодёжи» (РСМ) – одно из самых массовых, негосударственных, некоммерческих, неполитических молодёжных объединений России. Главная цель – помочь молодому человеку найти своё место в жизни, самореализоваться и продвинуться по карьерной лестнице.
+					</p>
+					<div class="btn-holder">
+						<a href="#">
+							Вступить в сообщество
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
-	
+
+	<section class="partners">
+		<div class="list-desc">
+			<div class="l-part">
+				<h2>
+					Партнеры
+				</h2>
+			</div>
+			<div class="r-part">
+				Показать всех партнеров
+			</div>
+		</div>
+		<div class="partners-list">
+			<ul class="list-inline">
+				<li>
+					<div class="image-holder">
+						<img src="img/icons/gerb1.png" alt="">
+					</div>
+					<div class="desc-holder">
+						Министерство образования и науки РФ
+					</div>
+				</li>
+				<li>
+					<div class="image-holder">
+						<img src="img/icons/gerb2.png" alt="">
+					</div>
+					<div class="desc-holder">
+						Министерство здравоохранения РФ
+					</div>
+				</li>
+				<li>
+					<div class="image-holder">
+						<img src="img/icons/gerb3.png" alt="">
+					</div>
+					<div class="desc-holder">
+						Федеральная миграционная служба РФ
+					</div>
+				</li>
+				<li>
+					<div class="image-holder">
+						<img src="img/icons/gerb4.png" alt="">
+					</div>
+					<div class="desc-holder">
+						Федеральная служба по надзору в сфере образования и науки
+					</div>
+				</li>
+				<li>
+					<div class="image-holder">
+						<img src="img/icons/gerb5.png" alt="">
+					</div>
+					<div class="desc-holder">
+						”оргово-промышленная палата РФ
+					</div>
+				</li>
+				<li>
+					<div class="image-holder">
+						<img src="img/icons/gerb6.png" alt="">
+					</div>
+					<div class="desc-holder">
+						Правительство города Москва
+					</div>
+				</li>
+				<li>
+					<div class="image-holder">
+						<img src="img/icons/gerb7.png" alt="">
+					</div>
+					<div class="desc-holder">
+						Общественная палата РФ
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="object-map">
+		<div class="desc-holder">
+			<div class="l-part">
+				<h2>Карта объектов</h2>
+			</div>
+			<div class="r-part">
+				<div class="filter-holder">
+					Москва
+				</div>
+			</div>
+		</div>
+		<div class="tags-line">
+			<ul class="list-inline">
+				<li>
+					<div class="key">
+						Отели:
+					</div>
+					<div class="value">
+						57
+					</div>
+				</li>
+				<li>
+					<div class="key">
+						Рестораны / кафе:
+					</div>
+					<div class="value blue">
+						87
+					</div>
+				</li>
+				<li>
+					<div class="key">
+						Достопримечательности:
+					</div>
+					<div class="value yell">
+						64
+					</div>
+				</li>
+				<li>
+					<div class="key">
+						Образование:
+					</div>
+					<div class="value viol ">
+						54
+					</div>
+				</li>
+				<li>
+					<div class="key">
+						Магазины:
+					</div>
+					<div class="value orang">
+						71
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="map-holder">
+			<div id="map"></div>
+		</div>
+	</section>
+
+	<section class="mobile-aplic">
+		<div class="cn-wraper">
+			<div class="card-holder">
+				<h1>
+					Мобильное приложение МКП
+				</h1>
+				<p>
+					Общероссийская общественная организация «Российский Союз Молодёжи» (РСМ) – одно из самых массовых, негосударственных, некоммерческих, неполитических молодёжных объединений России. Главная цель – помочь молодому человеку найти своё место в жизни, самореализоваться и продвинуться по карьерной лестнице.
+				</p>
+				<div class="g-serv-holder">
+					<div class="appstore">
+						<a href="#">
+							<img src="img/icons/appstore.png" alt="">
+						</a>
+					</div>
+					<div class="g-play-holder">
+						<a href="#">
+							<img src="img/icons/g-play.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews">
+		<div class="cn-wraper">
+			<h1>
+				Отзывы студентов
+			</h1>
+			<div class="clearfix">
+				<div class="rev-item">
+					<div class="image-holder">
+						<img src="img/content/rev-img-1.jpg" alt="">
+					</div>
+					<hr>
+					<div class="sub-desc">
+						<div class="place">
+							Санкт-Петербургский Государственный Университет
+						</div>
+						<div class="name">
+							Максим<br> Лучицкий
+						</div>
+						<div class="age">
+							21 год
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							Молодых людей интересуется получением высшего образования в Германии, а в интернете появилось немалое количество фирм, оказывающих помощь и содействие в этом вопросе. ”ак случилось и в нашей семье: желание поступить в Studienkolleg, огромное количество вопросов, на которые ищешь ответы на просторах интернета.
+						</p>
+					</div>
+				</div>
+				<div class="rev-item">
+					<div class="image-holder">
+						<img src="img/content/rev-img-2.jpg" alt="">
+					</div>
+					<hr>
+					<div class="sub-desc">
+						<div class="place">
+							Томский Государстенный Университет
+						</div>
+						<div class="name">
+							Григорий<br> Саморец
+						</div>
+						<div class="age">
+							21 год
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							В наше время всё большее количество молодых людей интересуется получением высшего образования в Германии, немалое количество фирм, оказывающих помощь и содействие в этом вопросе. ”ак случилось и в нашей семье: желание поступить в Studienkolleg, огромное количество вопросов
+						</p>
+					</div>
+				</div>
+				<div class="rev-item">
+					<div class="image-holder">
+						<img src="img/content/rev-img-3.jpg" alt="">
+					</div>
+					<hr>
+					<div class="sub-desc">
+						<div class="place">
+							Волгоградский Государстенный Университет
+						</div>
+						<div class="name">
+							Иван<br> Савченко
+						</div>
+						<div class="age">
+							22 года
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							В наше время всё большее количество молодых людей интересуется получением высшего образования в Германии, а в интернете появилось немалое количество фирм, оказывающих помощь и содействие в этом вопросе. ”ак случилось и в нашей семье: желание поступить в Studienkolleg
+						</p>
+					</div>
+				</div>
+				<div class="rev-item">
+					<div class="image-holder">
+						<img src="img/content/rev-img-4.jpg" alt="">
+					</div>
+					<hr>
+					<div class="sub-desc">
+						<div class="place">
+							Тверской Государстенный Университет
+						</div>
+						<div class="name">
+							Виктория<br> Клименко
+						</div>
+						<div class="age">
+							20 год
+						</div>
+					</div>
+					<div class="desc">
+						<p>
+							В наше время всё большее количество молодых людей интересуется получением высшего образования в Германии. ”ак случилось и в нашей семье: желание поступить в Studienkolleg, огромное количество вопросов, на которые ищешь ответы на просторах интернета..
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="tell-me">
+		<div class="cn-wraper">
+			<div class="tell-holder">
+				<div class="desc-holder">
+					<h3>
+						Сообщить о запуске<br> программы
+					</h3>
+					<p>
+						Общероссийская общественная организация «Российский Союз Молодёжи» (РСМ) – одно из самых массовых, негосударственных, некоммерческих, неполитических молодёжных объединений России.
+					</p>
+				</div>
+				<form>
+					<div class="inputs-holder">
+						<input type="text" placeholder="Имя">
+						<input type="text" placeholder="Телефон">
+						<input type="text" placeholder="Почта">
+					</div>
+					<div class="btn-holder">
+						<a href="#">
+							<img src="img/icons/20photos-512-copy.png" alt="">
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="cn-wraper">
+			<div class="bott-navs">
+				<div class="logo-holder">
+					<img src="img/icons/bott-logo.png" alt="">
+				</div>
+				<div class="address-holder">
+					<ul class="list-unstyled">
+						<li>
+							<span>101990, г. Москва, ул.Маросейка, 3/13.</span>
+						</li>
+						<li>
+							Приемная<br>
+							<b>
+								8 (495) 625-00-08,
+								mkn@mkn.ru
+							</b>
+						</li>
+						<li>
+							Пресс-служба, <br>
+							<b>
+								8 (495) 621-01-73,
+								mkn.rsm@gmail.com  
+							</b>
+						</li>
+					</ul>
+				</div>
+				<div class="bott-social-holder">
+					<p>
+						Общероссийская общественная организация «Российский Союз Молодёжи» (РСМ) – одно из самых массовых, негосударственных, некоммерческих, неполитических молодёжных объединений России.
+					</p>
+					<ul class="list-inline">
+						<li>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-odnoklassniki-square"></i></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-vk"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="mini-bott-nav">
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">Партнеры</a>
+						</li>
+						<li>
+							<a href="#">Карта скидок</a>
+						</li>
+						<li>
+							<a href="#">Отзывы</a>
+						</li>
+						<li>
+							<a href="#">Вступить</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bott-line">
+			<div class="design-author">
+				Дизайн сайта: <a href="#"> Моисеев Кирилл</a>
+			</div>
+		</div>
+	</section>
 
 
-	<script src="js/jquery-2.1.4.min.js"></script>
+
+	<script src="js/jquery-2.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC05NcNSu3cvMRY07aO24ikP9T_kNz0yKs&callback=initMap"
+    async defer></script>
+	<script src="js/main.js"></script>
+        <script>
+
+
+            var map;
+				function initMap() {
+				  map = new google.maps.Map(document.getElementById('map'), {
+				    center: {lat: -34.397, lng: 150.644},
+				    zoom: 8
+				  });
+				}
+        </script>
 </body>
 </html>
