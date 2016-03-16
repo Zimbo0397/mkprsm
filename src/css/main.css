@@ -1,0 +1,180 @@
+body {
+	font-family: 'Exo 2', sans-serif;
+}
+a,
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header {
+	background: #0281b9;
+}
+.top-navbar-holder {
+	max-width: 1220px;
+	margin: 0 auto;
+}
+.top-line {
+	text-align: right;
+	padding-top: 29px;
+}
+.top-social {
+    margin-right: 66px;
+}
+.top-social,
+.personal-manage,
+.lang-change {
+	display: inline-block;
+}
+.top-social li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.top-social li a {
+	color: #2b98c7;
+	font-size: 25px;
+}
+.lang-change {
+	width: 73px;
+	height: 22px;
+	overflow: hidden;
+	text-align: left;
+	padding-right: 6px;
+	position: relative;
+}
+.lang-change.open:after {
+	content: "\f0d8";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    height: 8px;
+    width: 8px;
+    color: #fff;
+}
+.lang-change:after {
+	content: "\f0d7";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    height: 8px;
+    width: 8px;
+    color: #fff;
+}
+.lang-change .langs-holder {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.lang-change .langs-holder li {
+/*	margin-bottom: 5px;
+	margin-top: 5px;*/
+}
+.lang-change .img-part {
+	display: inline-block;
+	vertical-align: middle;
+}
+.lang-change .descpart {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	color: #fff;
+}
+.personal-manage {
+	position: relative;
+	padding-left: 30px;
+	margin-right: 37px;
+}
+.personal-manage:before {
+	content: "";
+	top: 0;
+	left: 0;
+	height: 22px;
+	width: 22px;
+	position: absolute;
+	background: url(../img/icons/room-icon.png);
+}
+.personal-manage a {
+	color: #9fc4de;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	text-decoration: underline;
+}
+
+
+.main-navbar {
+	position: relative;
+	padding-left: 310px;
+	text-align: right;
+}
+.logo-holder {
+width: 310px;
+    height: 96px;
+    position: absolute;
+    left: 2px;
+    top: -9px;
+    color: #fff;
+    position: absolute;
+}
+.navs-holder {
+	display: inline-block;
+	margin-right: 80px;
+	margin-top: 34px;
+}
+.navs-holder .list-inline>li {
+    margin-left: 21px;
+    margin-right: 21px;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+}
+.navs-holder .list-inline>li:last-child {
+	margin-right: 0;
+}
+.navs-holder .list-inline>li.active:after {
+	content: "";
+	position: absolute;
+	bottom: -7px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+}
+.navs-holder ul li a {
+	color: #fff;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 17px;
+}
+.join-commun {
+	display: inline-block;
+    width: 258px;
+    height: 60px;
+    background: #1a90c3;
+    padding-left: 44px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 23px;
+    color: #fff;
+}
+.join-commun:before {
+	content: '';
+	position: absolute;
+	width: 28px;
+	height: 24px;
+	left: 20px;
+	top: 20px;
+	background: url(../img/icons/join.png);
+}
+
+
+/*//youth-card//*/
+.youth-card {
+	background: url(../img/content/y-card-bg.jpg); 
+}
